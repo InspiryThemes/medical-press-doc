@@ -172,7 +172,7 @@
                     <article class="hentry" id="introduction">
                         <div class="entry-content">
                             <h1 class="entry-title">Introduction</h1>
-                            <p>This documentation is last updated on 27 April 2015.</p>
+                            <p>This documentation is last updated on 6th October 2015.</p>
                             <p>Thank you for purchasing MedicalPress WordPress Theme . If you have any question that is beyond the scope of this documentation, Please feel free to create a support ticket using <a href="http://support.inspirythemes.com/" target="_blank">Our Support Site</a>.</p>
                             <p class="bg-warning text-warning">
                                 <strong>Disclaimer:</strong><br/> We offer limited support for theme customers. We only provide support for our themes and their core features. We cannot guarantee our themes will work properly with all third party plugins and server environments. If you plan on adding numerous plugins to this theme then please note, We cannot facilitate support for any conflicts that might arise with this theme's default functionality. The MedicalPress WordPress theme is presented as it is.
@@ -265,11 +265,20 @@
                         	</p>
 
                         	<p>
-                        		Go to <strong>Theme Options &gt; Demo Importer</strong> and press <strong>Import Demo</strong> button, As guided in screenshot below. <br>
-                        	</p>
-
-                        	<p>
-                        		<strong>Now wait, It can take few minutes as images are fetched from remote server.</strong> You can visit your site once done.
+                        		Go to <strong>Theme Options &gt; Demo Importer</strong> and press <strong>Import Demo</strong> button, As pointed in screen shot below.
+                                <strong>Now wait, It can take few minutes as images are fetched from remote server.</strong> You can visit your site once done.
+                                <br/>
+                                <br/>
+                                Some time import process can become freezed/halted due to delays in fetching data from remote server.
+                                You can verify this by visiting media library in a new tab and analysing the number of images imported.
+                                In this case, Simply refresh theme options and re-click the demo import button as it will not add duplicate entries
+                                and simply resume from where it halted last time. It only adds duplicate entries in menu and those can be removed easily.
+                                <br/>
+                                <br/>
+                                If demo import process totally fails then you can try fallback demo import as that is hosted on a different server.
+                                <br/>
+                                <br/>
+                                For any further help you can create a support ticket on our support site.
                         	</p>
 
                             <img src="assets/medical-press/install/14.png" alt=""/><br/><br/>
@@ -297,7 +306,7 @@
                             <img src="assets/medical-press/install/5.png" alt=""/><br/><br/>
                             <p>Once installed you need to activate the plugin and run the importer.</p>
                             <img src="assets/medical-press/install/6.png" alt=""/><br/><br/>
-                            <p>Select the XML file from <strong>Import XML</strong> folder in unzipped package that you have downloaded from themeforest.</p>
+                            <p>Select the XML file from <strong>demo</strong> directory under <strong>Import XML</strong> directory in unzipped package that you have downloaded from themeforest.</p>
                             <img src="assets/medical-press/install/7.png" alt=""/><br/><br/>
                             <p>
                                 After importing XML file.
@@ -343,7 +352,7 @@
                                 <li>Click 'Import from URL' button</li>
                                 <li>Copy this import URL and paste it into the URL field
                                     <code class="url">
-                                        http://inspirythemesdemo.com/medicalpress/wp-admin/admin-ajax.php?action=redux_link_options&secret=a8af53a86e6df9ed268e1d2e9421fe19
+                                        http://medicalpress-min.inspirythemes.biz/wp-admin/admin-ajax.php?action=redux_download_options-redux_demo&secret=19a70075b0eb105a5530ed121e177ee9
                                     </code>
                                     <br>
                                     <img src="assets/medical-press/install/12.png" alt=""><br><br>
