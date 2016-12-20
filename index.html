@@ -148,6 +148,18 @@
                             <li>
                                 <a href="#" class="menu-item">
                                     <span class="main-menu-item">
+                                        <i class="glyphicon glyphicon-map-marker"></i>Google Maps<span class="glyphicon glyphicon-chevron-right"></span>
+                                    </span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li><a class="sub-menu-item" href="#google-maps-api-key">How to get Google Maps API Key</a></li>
+                                    <li><a class="sub-menu-item" target="_blank" href="https://support.google.com/webmasters/answer/35179">How to verify domain with Google</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="menu-item">
+                                    <span class="main-menu-item">
                                         <i class="glyphicon glyphicon-edit"></i>Modify Theme<span class="glyphicon glyphicon-chevron-right"></span>
                                     </span>
                                 </a>
@@ -1257,6 +1269,36 @@
                             <ol>
                                 <li>For translation to only one language please visit <a target="_blank" href="http://support.inspirythemes.com/knowledgebase/how-to-translate-your-theme-to-your-language/">This Knowledge Base Article</a></li>
                                 <li>For translation to multiple languages you can use <a target="_blank" href="http://wpml.org/">WPML Plugin</a></li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry current" id="google-maps-api-key">
+                        <div class="entry-content">
+                            <h2 class="entry-title">How to get Google Maps API Key for your website</h2>
+
+                            <p class="bg-info text-info">
+                                As of June 2016, to keep Google Maps running smoothly on your website you need a special API Key. To get and setup the API Key for Google Maps please follow the instructions below.
+                            </p>
+
+                            <ol>
+                                <li> Please go to <a href="https://console.developers.google.com/flows/enableapi?apiid=maps_backend,geocoding_backend,directions_backend,distance_matrix_backend,elevation_backend&amp;keyType=CLIENT_SIDE&amp;reusekey=true" target="_blank">Google API Console.</a> and login with your google account.</li>
+                                <li> Create a new project or select an existing project then click on <strong>Continue</strong> to enable the API and any related services.
+                                    <br>
+                                    <img class="light-border" src="assets/medical-press/google-maps/create-or-existing.png">
+                                </li>
+                                <li> Name your browser key and restrict it by adding your site URLs as shown in the screenshot below.
+                                    <br>
+                                    <img class="light-border" src="assets/medical-press/google-maps/credentials.png">
+                                </li>
+                                <li> Copy the generated Google Maps API key from the popup, you will need this to set in <strong>Theme Options</strong> panel (<strong>Dashboard</strong> &gt; <strong>Theme Options</strong> &gt; <strong>Contact</strong> &gt; <strong>Google Map Api Key</strong>). Click on <strong>Close</strong> button to proceed.
+                                    <br>
+                                    <img class="light-border" src="assets/medical-press/google-maps/api-key.png">
+                                </li>
+                                <li>By default most of the APIs are enabled but you have to enable all other APIs too in order to avoid any problems in the future.
+                                    <br>
+                                    <img class="light-border" src="assets/medical-press/google-maps/all-apis.png">
+                                </li>
                             </ol>
                         </div>
                     </article>
