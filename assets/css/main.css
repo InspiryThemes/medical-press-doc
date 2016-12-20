@@ -164,6 +164,11 @@ img {
 .hentry .entry-title {
     border-bottom: 1px solid #e5e5e5;
     padding-bottom: 11px;
+    padding-top: 11px;
+}
+
+.hentry .entry-content ol li {
+    margin-bottom: 10px;
 }
 
 p.bg-info{
