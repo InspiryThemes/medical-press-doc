@@ -165,6 +165,7 @@
                                 </a>
                                 <ul class="sub-menu">
                                     <li><a class="sub-menu-item" href="#wpml-basic-setup">WPML Basic Setup</a></li>
+                                    <li><a class="sub-menu-item" href="#wpml-home-news-page">Home & News Page</a></li>
                                 </ul>
                             </li>
 
@@ -1332,7 +1333,7 @@
                                 <li> Select the other languages for your site and <strong>Go Next</strong>.</li>
                                 <li> Leave all the section on this page as it is and <strong>Go Next</strong>.</li>
                                 <li> <strong>Register WPML</strong> if you want to receive automatic updates OR press "<strong>Remind Me Later</strong>" button.</li>
-                                <li> Click <strong>Finish</strong> Button, Now you will be taken to <strong>Dashboard &gt WPML > Languages</strong> page but with different interface. If not then manually go to <strong>Dashboard &gt WPML > Languages</strong> Page.</li>
+                                <li> Click <strong>Finish</strong> Button, Now you will be taken to <strong>Dashboard &gt WPML &gt Languages</strong> page but with different interface. If not then manually go to <strong>Dashboard &gt WPML > Languages</strong> Page.</li>
                                 <li> Look for <strong>Language URL Format</strong> section and choose the url format that suites your needs.
                                     I am choosing the 1st one with languages directories at the end. Save the changes.
                                     <br/>
@@ -1348,7 +1349,7 @@
                                     <br/>
                                     <img class="light-border" src="assets/medical-press/wpml/2.png" alt=""/>
                                 </li>
-                                <li> After that, go to <strong>Dashboard &gt WPML  > Theme and Plugin Localization</strong>.</li>
+                                <li> After that, go to <strong>Dashboard &gt WPML  &gt Theme and Plugin Localization</strong>.</li>
                                 <li> 1st Option is <strong>“Select how to translate strings in the theme and plugins”</strong>, Choose <strong>Translate the theme and plugins using WPML's String Translation</strong> and Save.
                                     <br/>
                                     <img class="light-border" src="assets/medical-press/wpml/29.png" alt=""/>
@@ -1363,14 +1364,57 @@
                                     <img class="light-border" src="assets/medical-press/wpml/30.png" alt=""/>
                                 </li>
                                 <li>
-                                    Now, Go to <strong>Dashboard &gt WPML > String Translation</strong> section and configure the following settings.
+                                    Now, Go to <strong>Dashboard &gt WPML &gt String Translation</strong> section and configure the following settings.
                                     <br/>
                                     <img class="light-border" src="assets/medical-press/wpml/8.png" alt=""/>
                                 </li>
-                                <li> Basic settings are complete and you can translate a string that do not exist in post, pages and taxonomies using <strong>Dashboard &gt WPML > String Translation</strong> Section. For more information, please visit:
+                                <li> Basic settings are complete and you can translate a string that do not exist in post, pages and taxonomies using <strong>Dashboard &gt WPML &gt String Translation</strong> Section. For more information, please visit:
                                     <a target="_blank" href="https://wpml.org/documentation/getting-started-guide/string-translation/">https://wpml.org/documentation/getting-started-guide/string-translation/</a>
                                 </li>
                             </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="wpml-home-news-page">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Translate Home & News Page</h2>
+
+                            <h3>1. Duplicate Home Page for Other Language</h3>
+                            <ol>
+                                <li>Go to <strong>Pages</strong> on WordPress admin side and look for <strong>Home</strong> Page</li>
+                                <li>Open the <strong>Home</strong> page for editing and look for <strong>Language</strong> meta box in right sidebar.</li>
+                                <li>Select <strong>Duplicate</strong> in front of your desired other language. and press <strong>Duplicate</strong> button. The page will refresh.
+                                    <br/>
+                                    <strong>Note:</strong> You can edit the duplicated page if you need to but we are not doing it here.
+                                </li>
+                                <li>Now you can go to the Home page on front end ( visit the site ) and choose the translated home page's language from language switcher in header top bar and you will see that page will refresh and URL will be changed to your newly translated homepage.
+                                    <br/>
+                                    <strong>Note:</strong> If you are not able to view language switcher then make sure to enable the setting in <strong>Dashboard &gt Theme Options &gt; Header</strong> section as displayed in screen shot below.
+                                    <br/>
+                                    <img class="light-border" src="assets/medical-press/wpml/31.png" alt=""/>
+                                </li>
+                                <li>Do not worry about lots of un-translated things in header, footer and content area. You will learn to translate those one by one.</li>
+                            </ol>
+
+                            <h3>2. Duplicate News Page for Other Language</h3>
+                            <ol>
+                                <li>Go to <strong>Pages</strong> on WordPress admin side and look for <strong>News</strong> Page</li>
+                                <li>Duplicate it the same way we duplicated home page. ( As explained above )</li>
+                                <li>Edit the duplicated news page and provide it translated title. As displayed below.
+                                    <br/>
+                                    <img class="light-border" src="assets/medical-press/wpml/32.png" alt=""/>
+                                </li>
+                                <li>Update the page after editing.</li>
+                            </ol>
+
+                            <h3>3. Update Reading Settings</h3>
+                            <ol>
+                                <li>After creating Translated Pages for Home and news Go to <strong>Dashboard &gt Settings &gt Reading</strong> and configure the translated pages as <strong>Front Page</strong> and <strong>Posts Page</strong>.
+                                    <br/>
+                                    <img class="light-border" src="assets/medical-press/wpml/33.png" alt=""/>
+                                </li>
+                            </ol>
+
                         </div>
                     </article>
 
