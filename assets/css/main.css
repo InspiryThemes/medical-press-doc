@@ -168,7 +168,7 @@ img {
 }
 
 .hentry .entry-content ol li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 p.bg-info{
@@ -206,4 +206,8 @@ code.url{
         margin-bottom: -9999px;
         padding-bottom: 9999px;
     }
+}
+
+.img-top-margin {
+    margin-top: 20px;
 }
