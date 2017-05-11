@@ -211,3 +211,7 @@ code.url{
 .img-top-margin {
     margin-top: 20px;
 }
+
+ul li, ol li {
+    margin-top: 25px;
+}
