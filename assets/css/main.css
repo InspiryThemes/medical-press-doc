@@ -215,3 +215,7 @@ code.url{
 ul li, ol li {
     margin-top: 25px;
 }
+
+.fixed-margin {
+    margin: 5px !important;
+}
