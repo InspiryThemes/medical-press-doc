@@ -219,3 +219,10 @@ ul li, ol li {
 .fixed-margin {
     margin: 5px !important;
 }
+
+.logo-for-documentation {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
